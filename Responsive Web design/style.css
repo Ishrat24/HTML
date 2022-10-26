@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+body {
+background-color: #1c87c9;
+}
+table {
+width: 600px;
+
+} 
+
+table, th, td {
+border: 1px solid black;
+background-color: lightblue;
+padding: 10px;
+border-collapse: collapse;
+
+}
+
+img {
+
+padding: 10px;
+border: 3px solid blue;
+
+}
+
+.positionImage {
+
+padding: 10px 0px;
+text-align: center;
+
+}
+
+th {
+ 
+text-align: left;
+padding: 10px;
+
+}
+
+caption {
+color: white;
+caption-side: bottom;
+padding: 10px;
+
+}
+
+h2 {
+color: white;
+}
+
+a {
+text-decoration: none;
+color: black;
+} 
+
+a:hover {
+
+color: blue;
+
+}
