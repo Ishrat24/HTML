@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.background-image{
+
+    background-image: url(background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+.overlay{
+    position: absolute;
+    top: 8.6%; 
+    height: 91.70%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+.menu-bar{
+    background: rgb(60,179,113);
+    text-align: center;
+    
+}
+
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+    
+}
+
+.menu-bar ul li{
+
+   
+   width: 200px;
+   
+   margin: 15px;
+   padding: 15px;
+   font-size: 15px;
+         
+}
+
+.menu-bar ul li a {
+    text-decoration: none;
+    color:white;
+}
+
+.active, .menu-bar ul li:hover{
+
+    background: #2bab0d;
+    border-radius: 3px;
+
+}
+
+.menu-bar .fa{
+
+    margin-right: 5px;
+}
+
+
+
+
+
+.container{
+
+    display: flex;
+    padding: 10px;
+   
+
+}
+
+img{
+    width: 300px;
+    height: 200px;
+    padding: 5px;
+}
+
+img:hover{
+
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 60px;
+}
+.social ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+    
+}
+
+.social ul li{
+
+   
+   width: 120px;
+   
+   margin: 15px;
+   padding: 15px;
+   font-size: 40px;
+         
+}
+
+.social ul li a {
+    text-decoration: none;
+    color:white;
+}
+
+
+.social .fa{
+
+    margin-right: 8px;
+}
+
